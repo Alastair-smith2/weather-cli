@@ -1,4 +1,4 @@
-This is a Rust CLI app that allows you to enter a location and find out the weather of the location entered.
+This is a Rust CLI app that allows you to enter a location and find out the weather of the location entered using `api.openweather`
 
 <br/>
 
@@ -7,6 +7,10 @@ You are able to find out either about the current weather information or 5 day f
 # Setup -
 
 Run `cargo build` to build the application and download dependencies
+
+You will also need to create a `.env` file and add your [open weather api key](https://openweathermap.org/api)
+
+The API key is in the format of `API_KEY=YOUR_KEY_HERE`
 
 ## Commands -
 
